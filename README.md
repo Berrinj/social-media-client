@@ -14,7 +14,7 @@ Project files are forked from Noroff at (https://github.com/NoroffFEU/social-med
 - "Configure the project with GitHub Actions for build/deploy if required."
 - "Record any bugs found during this process in the Issues tab."
 - "Configure the project for Jest and Cypress."
-- "Create tests to cover the required test cases." These being tests for login and logout with jest, and valid/invalid login, logout tests with cypress.
+- "Create tests to cover the required test cases." These being tests for login and logout with jest, and valid/invalid login plus logout tests with cypress.
 - "Create a Pull Request from workflow into the default branch."
 - "Request a review from your peers to help improve your submission."
 - "Make any final changes based on this feedback."
