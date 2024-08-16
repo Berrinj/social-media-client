@@ -8,5 +8,9 @@ describe("Noroff valid login form test", () => {
     cy.get("input#loginPassword").type("123456789");
     cy.get(".modal-footer").contains("Login").click();
     cy.get("h4.profile-name").should("contain.text", "Frida");
+    cy.window().then((window) => {
+      const token = window.localStorage.getItem("token");
+      expect(token).to.exist;
+    });
   });
 });
