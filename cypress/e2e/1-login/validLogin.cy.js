@@ -1,4 +1,4 @@
-describe("Noroff login form test", () => {
+describe("Noroff valid login form test", () => {
   it("should login with valid credentials", () => {
     cy.visit("/");
     cy.wait(500);
