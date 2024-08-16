@@ -78,13 +78,13 @@ npm run lint
 Run UNIT-tests:
 
 ```bash
-npm run test:unit
+npm run test-unit
 ```
 
 Run E2E-tests:
 
 ```bash
-npm run test:e2e
+npm run test-e2e-cli
 ```
 
 ## Contributing
