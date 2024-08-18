@@ -34,8 +34,6 @@ global.localStorage = localStorageMock;
 /* test */
 describe("login function", () => {
   beforeEach(() => {
-    // fetch.mockClear();
-    // localStorage.clear();
     jest.clearAllMocks();
   });
 
